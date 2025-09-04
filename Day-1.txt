@@ -1,0 +1,24 @@
+
+Day 1 – DevOps
+
+Introduction to DevOps
+DevOps is the combination of both Development team and Operations team working together to deliver software faster and more reliably.
+
+Applications of DevOps
+
+Helps in faster software development
+
+Automates deployment process
+
+Improves teamwork and collaboration
+
+Provides better monitoring of applications
+
+
+Modes of Applications (States)
+
+Running → Application is currently working
+
+Suspended → Application is paused but can start again
+
+Terminated → Application is stopped completely
