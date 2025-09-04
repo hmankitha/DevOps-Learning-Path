@@ -1,0 +1,32 @@
+YAML Coding
+
+YAML (Yet Another Markup Language) is a human-readable data format.
+
+Used in DevOps for writing configuration files (e.g., Docker Compose, Kubernetes, Ansible).
+
+It is simple, structured, and easy to understand.
+
+Example YAML:
+
+version: "3"
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+
+
+What, Why, Where – Questions
+
+What → Understand the concept (definition).
+
+Why → Know the purpose (reason/importance).
+
+Where → Identify the place of use (applications).
+
+
+Scaling in DevOps
+
+Horizontal Scaling → Adding more machines/instances to handle the load (e.g., adding more servers).
+
+Vertical Scaling → Increasing the power of a single machine (e.g., adding more CPU/RAM).
