@@ -1,0 +1,20 @@
+What is Automation?
+
+Automation is the process of using tools and scripts to perform tasks automatically without manual effort. In DevOps, automation helps to save time, reduce errors, and improve efficiency.
+
+
+Automation Tools in DevOps
+
+Git → Version control
+
+Jenkins → Continuous Integration/Continuous Deployment (CI/CD)
+
+Docker → Containerization
+
+Kubernetes → Container orchestration
+
+Ansible / Puppet / Chef → Configuration management
+
+Terraform → Infrastructure as Code (IaC)
+
+Nagios / Prometheus → Monitoring
