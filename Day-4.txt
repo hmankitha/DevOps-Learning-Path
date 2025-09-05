@@ -1,0 +1,9 @@
+Day 4 – DevOps Learning Journey
+
+Real-time Experience: Gained practical exposure to how DevOps concepts are applied in real environments.
+
+GUI vs CLI: Understood the differences and use cases of Graphical User Interface (GUI) and Command-Line Interface (CLI) in managing infrastructure and tools.
+
+Infrastructure Monitoring: Learned about monitoring systems, why it’s critical for maintaining uptime, performance, and reliability, and explored tools/approaches for real-time infrastructure visibility.
+
+Monitoring is the backbone of DevOps – it ensures systems are healthy, scalable, and issues can be detected early. Also, being comfortable with both GUI and CLI strengthens flexibility in handling real-time operations.
