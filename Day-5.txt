@@ -1,0 +1,40 @@
+Real Work of a DevOps Engineer:
+
+Build & manage CI/CD pipelines
+
+Containerization (Docker) & Orchestration (Kubernetes)
+
+Infrastructure as Code (Terraform, Ansible)
+
+
+
+Monitoring, logging & automation
+
+🔹 Basic Docker Commands
+docker pull <image>          # Download image
+docker images                # List images
+docker run -d -p 8080:80 <image>   # Run container
+docker ps -a                 # Show containers
+docker exec -it <id> bash    # Access container shell
+
+🔹 Basic Kubernetes Commands
+kubectl get pods             # List pods
+kubectl describe pod <name>  # Pod details
+kubectl apply -f app.yaml    # Deploy app
+kubectl logs <pod>           # View logs
+kubectl exec -it <pod> -- bash   # Access pod shell
+
+🔹 Sample Dockerfile
+FROM node:18-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD ["npm", "start"]
+
+
+👉 Build & Run:
+
+docker build -t my-node-app .
+docker run -d -p 3000:3000 my-node-app
