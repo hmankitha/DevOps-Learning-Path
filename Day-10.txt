@@ -1,0 +1,41 @@
+Day 10: Jenkins Advanced + Plugins
+✅ Topics Covered
+
+
+Deeper look into Jenkins features
+
+Freestyle jobs vs Pipeline jobs
+
+Post-build actions (archive artifacts, email notifications)
+
+Jenkins master–agent architecture basics
+
+Plugins in Jenkins – what they are & why they’re important
+
+
+🔌 Common Jenkins Plugins
+
+Git Plugin → Source code integration → Connect Jenkins with Git/GitHub repos
+
+Pipeline Plugin → Pipeline-as-code support → Run Jenkinsfiles
+
+Docker Plugin → Container integration → Build & run Docker images
+
+Kubernetes Plugin → Cloud-native deployments → Run builds on Kubernetes pods
+
+Blue Ocean → Modern UI → Visualize pipelines
+
+Email Extension Plugin → Notifications → Custom build result emails
+
+
+🔑 Key Notes
+
+Freestyle Jobs → GUI-based, quick but limited.
+
+Pipeline Jobs → Code-based, scalable, preferred in real projects.
+
+Jenkins can distribute workloads across master & agents.
+
+Plugins extend Jenkins to support almost any tool (Git, Docker, K8s, etc.).
+
+Always keep plugins updated and install only the necessary ones.
