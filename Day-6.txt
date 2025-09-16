@@ -1,0 +1,34 @@
+Day 6: Jenkins Basics
+✅ Topics Covered
+
+Introduction to Jenkins (CI/CD tool for automation)
+Jenkins pipeline creation
+
+💡 Key Points
+Jenkins automates build, test, and deployment.
+Pipelines can be created using Declarative or Scripted syntax.
+Jenkinsfile defines the pipeline as code.
+
+
+📝 Sample Jenkinsfile (Declarative Pipeline)
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building the project...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Running tests...'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying application...'
+            }
+        }
+    }
+}
