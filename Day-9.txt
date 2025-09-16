@@ -1,0 +1,16 @@
+Day 9: GitHub + Jenkins (Pipeline as Code)
+✅ Topics Covered
+
+Configured Jenkins to use GitHub repository URL.
+Jenkins automatically picked up the Jenkinsfile from the repo.
+No scripts written in Jenkins UI → everything managed from GitHub.
+
+🔑 Key Notes
+
+Pipeline as Code → Jenkinsfile is version-controlled inside GitHub.
+
+Jenkins only needs the repo URL, no manual configuration.
+
+Changes in Jenkinsfile = automatic changes in pipeline behavior.
+
+Keeps CI/CD process clean, repeatable, and collaborative.
