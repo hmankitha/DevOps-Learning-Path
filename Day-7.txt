@@ -1,0 +1,36 @@
+Day 7: Jenkins Scripted Pipelines
+✅ Topics Covered
+
+What is a Scripted Pipeline?
+Written in Groovy.
+Uses node {} blocks for execution.
+Provides flexibility and complex logic handling.
+More control than Declarative pipelines.
+
+📝 Scripted Pipeline Example
+node {
+    stage('Checkout') {
+        checkout scm
+    }
+    stage('Build') {
+        echo "Compiling source code..."
+        sh 'mvn clean install'
+    }
+    stage('Test') {
+        echo "Running unit tests..."
+        sh 'mvn test'
+    }
+    stage('Deploy') {
+        echo "Deploying to server..."
+        sh 'scp target/app.war user@server:/apps/'
+    }
+}
+
+🔑 Key Points
+
+Declarative vs Scripted:
+
+Declarative → Easier, structured, preferred for beginners.
+Scripted → Advanced, supports full Groovy code.
+Supports loops, conditionals, try-catch, and shared libraries.
+Often used for complex CI/CD workflows where fine-grained control is needed.
